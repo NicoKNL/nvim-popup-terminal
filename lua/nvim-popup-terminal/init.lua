@@ -8,7 +8,7 @@ local function openTerminal()
             relative = "editor",
             width    = width - 8,
             height   = height - 8,
-            col      = 4,
+            col      = 8,
             row      = 4
         })
     vim.cmd("term")
