@@ -6,8 +6,8 @@ local function openTerminal()
     local buffer = vim.api.nvim_create_buf(false, true)
     local window = vim.api.nvim_open_win(buffer, true, {
             relative = "editor",
-            width    = width - 8,
-            height   = height - 8,
+            width    = width  - 16,
+            height   = height -  8,
             col      = 8,
             row      = 4
         })
